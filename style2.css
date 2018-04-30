@@ -1,0 +1,38 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+hr {
+  max-width: auto;
+  border-width: 2.5px;
+  border-color: #F05F44;
+  margin-bottom: 1.5em;
+}
+
+.header-bg {
+  background-position: center;
+  background-image: url("myheader.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+.btn-light {
+  border-radius: 300px;
+  background-color: #F05F44;
+  border-color: #F05F44;
+  color: white;
+}
+
+.btn-light:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+  color: white;
+}
